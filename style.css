@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poiret One', cursive;
+}
+
+.whole-wrap {
+  margin: 20px auto 0;
+  width: 800px;
+  height: 1400px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-image: url('bg.png')
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+}
+
+header span.name {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.track{
+  margin:20px auto;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .re-con, .x-score-box, .round, .o-score-box{
+
+  width: 100px;
+  height:120px;
+  background-color: grey;
+ }*/
+
+.re-con{
+  width: 80px;
+  height: 80px;
+}
+
+.round{
+  width: 300px;
+}
+
+span.rnd-txt{
+  font-size: 60px;
+  font-weight: 800; 
+}
+
+#r-count{
+  font-size: 60px;
+  font-weight: 800;
+}
+
+
+.material-icons.md-80 {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 80px;  
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.score-con {
+
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  margin: 30px auto 10px;
+}
+
+/* span {
+  font-size: 24px;
+  color: black;
+}
+ */
+.main-wrap {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  width: 600px;
+  height: 600px;
+  cursor: pointer;
+  /* border: 1px solid black; */
+  display: table;
+  border-radius: 50px;
+  box-shadow: inset 0 0 50px #000000;
+}
+
+main div { /*i cant vertical align it*/
+  width: 200px;
+  height: 200px;
+  border: 1px solid transparent;
+  float: left;
+  font-size: 180px;
+  text-align: center;
+}
+
+.one, .thr, .fiv, .sev, .nin {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.two, .fou, .six, .eig {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.one {
+  border-radius: 50px 0 0 0;
+}
+.thr{
+  border-radius: 0 50px 0 0;
+}
+
+.sev{
+  border-radius: 0 0 0 50px;
+}
+.nin{
+  border-radius: 0 0 50px 0;
+}
+
+.alrdwon{
+  pointer-events: none;
+}
+
+.x-turn {
+pointer-events: none;
+
+}
+
+.o-turn {
+pointer-events: none;
+}
+
+p {
+  font-size: 30px;
+}
+
+
