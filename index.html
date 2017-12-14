@@ -2,53 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Miaoz XOXO</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 </head>
 <body>
   <div class="whole-wrap">
     <header><span class="name">xoxo</span></header>
-    
     <div class="track">
-      <div class="re-con">
-        <i class="material-icons md-80">refresh</i>
+      <div class="refrh-con">
+        <i class="material-icons md-100">refresh</i>
       </div><!-- end of refresh-->
       <div class="round">
-        <span class="rnd-txt">ROUND
-          <span id="r-count">0</span>
+        <span class="rnd-txt">Round
+          <span id="r-count">1</span>
         </span>
       </div><!-- end of round area-->
-      <div class="x-score-box">
-        <div class="score-con"><span id ="x"></span></div>
-      </div><!-- end of o scorebox-->
-      <div class="o-score-box">
-        <div class="score-con"><span id="o"></span></div>
-      </div><!-- end of o scorebox-->
+      <div class="score-box">
+        <div class="x-score-hold">
+          <span id="x-place">X:</span>
+          <span id ="x"></span>
+        </div>
+        <div class="o-score-hold">
+          <span id="o-place">O:</span>
+          <span id="o"></span>
+        </div>
+      </div><!-- end of scorebox-->
     </div> <!-- end of track container -->
     
     <div class="main-wrap">
       <main>
-        <div class="one" data-block="0"><span class="disp"></span></div>
-        <div class="two" data-block="1"><span class="disp"></span></div>
-        <div class="thr" data-block="2"><span class="disp"></span></div>
-        <div class="fou" data-block="3"><span class="disp"></span></div>
-        <div class="fiv" data-block="4"><span class="disp"></span></div>
-        <div class="six" data-block="5"><span class="disp"></span></div>
-        <div class="sev" data-block="6"><span class="disp"></span></div>
-        <div class="eig" data-block="7"><span class="disp"></span></div>
-        <div class="nin" data-block="8"><span class="disp"></span></div>
-      </main> <!--span is prepared, not used yet-->
-    </div>
-    <button>RESET</button>
-    <p><p>
-      <footer>
-      </footer>
-
+        <div class="one" data-block="0">
+          <span class="disp animated"></span>
+        </div>
+        <div class="two" data-block="1">
+          <span class="disp animated"></span>
+        </div>
+        <div class="thr" data-block="2">
+          <span class="disp animated"></span>
+        </div>
+        <div class="fou" data-block="3">
+          <span class="disp animated"></span>
+        </div>
+        <div class="fiv" data-block="4">
+          <span class="disp animated"></span>
+        </div>
+        <div class="six" data-block="5">
+          <span class="disp animated"></span>
+        </div>
+        <div class="sev" data-block="6">
+          <span class="disp animated"></span>
+        </div>
+        <div class="eig" data-block="7">
+          <span class="disp animated"></span>
+        </div>
+        <div class="nin" data-block="8">
+          <span class="disp animated"></span>
+        </div>
+      </main> 
+        <div class="result-box">
+          <span class="win-result"></span>
+        </div>
+    </div><!--end of main wrap -->
       <script src="main.js"></script>  
-    </div>
+    </div><!--end of the whole wrap-->
   </body>
   </html>
 
@@ -63,4 +83,9 @@ https://fonts.google.com/specimen/Poiret+One?selection.family=Poiret+One
 bg img
 
 https://dribbble.com/shots/2751910-Seasons/attachments/559528
+
+animated
+
+https://github.com/daneden/animate.css
+
 -->
