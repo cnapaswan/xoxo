@@ -80,7 +80,7 @@ function reset(){
 
   result = ['n','n','n','n','n','n','n','n','n']
   for(var i = 0 ; i < allBoxes.length; i++){
-  allBoxes[i].classList.remove('x-turn','o-turn')
+  allBoxes[i].classList.remove('x-turn','o-turn','x-clr','o-clr')
   board.classList.remove('alrdwon')
   allText[i].textContent = ""
   allText[i].classList.remove('bounceInDown')

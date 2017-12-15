@@ -9,11 +9,13 @@ body {
   background: linear-gradient(#ff939f,#ffc298,#0f877f);
   background-repeat: no-repeat;
   padding: 0 0 100px;
+
+  
 }
 .whole-wrap {
   margin: 30px auto;
   width: 850px;
-  padding: 0 0 150px;
+  padding: 0 0 100px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -42,6 +44,7 @@ header span.name:after {
   position: absolute; left: 5px; top: 3px;
   color: rgba(38,34,40,0.6);   
 }
+
 .track{
   width: 850px;
   margin:20px auto;
@@ -49,6 +52,7 @@ header span.name:after {
   justify-content: space-around;
   color: #262228;
   text-shadow: 0px 1px 1px #4d4d4d;
+  padding: 0 0 50px;
 }
 
 .refrh-con{
@@ -57,6 +61,20 @@ header span.name:after {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #118883;
+  border-radius: 100px;
+  box-shadow: 0 0 10px #000000;
+}
+
+.refrh-dec{
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 100px;
+  box-shadow: inset 0 0 5px #000000;
 }
 
 .material-icons.md-100 {
@@ -86,18 +104,22 @@ span.rnd-txt, #r-count{
   font-weight: 800; 
 }
 
-.score-box {
-
+.score-box-bg {
+  z-index: 0;
+  position: relative;
   width: 150px;
   height: 150px;
   border-radius: 20px;
-  box-shadow: 0 0 5px #000000;
+  box-shadow: 0 0 10px #000000;
+/*   display: flex;
+align-items: center;
+justify-content: center; */
 }
 
 .x-score-hold {
   width: 150px;
   height: 75px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #16aaa1;
   border-radius: 10px 10px 0 0;
   float: left;
   display: flex;
@@ -109,13 +131,41 @@ span.rnd-txt, #r-count{
 .o-score-hold {
   width: 150px;
   height: 75px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #118883;
   border-radius: 0 0 10px 10px;
   float: left;
   display: flex;
   align-items: center;
   justify-content: center;
   /* letter-spacing: 0.0625em; */
+}
+
+.scr-box-dec {
+  position: absolute;
+  margin: 10px;
+  width: 130px;
+  height: 130px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0 0 5px #000000;
+}
+
+.x-scr-txt-hold {
+  width: 130px;
+  height: 65px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.o-scr-txt-hold {
+  width: 130px;
+  height: 65px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
  #x-place, #o-place, #x, #o {
@@ -149,7 +199,7 @@ main {
 .result-pop{
   width: 850px;
   height: 200px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.9);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -186,7 +236,7 @@ main div {
 }
 
 .disp.animated.bounceInDown {
-  -vendor-animation-duration: 2s;
+  -vendor-animation-duration: 1s;
 }
 
 .one, .thr, .fiv, .sev, .nin {
