@@ -1,9 +1,2 @@
-# xoxo
+Miaoz XOXO is the sexier version of our familiar TIC - TAC - TOE game. The game was created with JavaScript, HTML and Vanilla CSS. My determination behind this game was to make it user-friendly, beautiful and definitely properly function.  The popping up area is the board for 2 players to place their 'X' or 'O' symbols, the player who manages to place their symbol across the board in horizontal, diagonal and vertical line first will be named the 'WINNER'. I intentionally pop the winning declaration in the middle of the board as I found it's not so convenient to click refresh button every time to restart a new game. My UX friend was really proud of me that I added this feature.
 
-WHAT IS 'XOXO'
-'xoxo' or aka 'tic-tac-toe' game, presented on 3 X 3 board for 2 players
-
-the game played turn by turn
-the first player is equiped with 'x', and the second will be granted 'o'
-
-Any player who marked their objects across the board first will be the WINNER
