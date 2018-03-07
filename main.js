@@ -23,7 +23,7 @@ for(var i = 0 ; i < allBoxes.length; i++){
 function boxAny(event){
   var box = event.target
   var boxText = event.target.querySelector('span')
-  var idx = Number(box.dataset.block)
+    var idx = Number(box.dataset.block)
   boxText.classList.add('bounceInDown')
 
   if(turn % 2 === 0) {
