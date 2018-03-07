@@ -14,9 +14,9 @@
 ## Built With
 
 vanilla group of
-⋅⋅* JavaScript
-⋅⋅* HTML
-⋅⋅* CSS
+* JavaScript
+* HTML
+* CSS
 
 ## License
 
